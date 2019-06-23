@@ -1,5 +1,9 @@
-docker volume ? and bookmark node_modules folder inside the docker container:
+docker volume and bookmark node_modules folder inside the docker container:
+
+```
 docker run -p 5000:5000 -v \$(pwd):/app -v app/node_modules kent/profrontend
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
